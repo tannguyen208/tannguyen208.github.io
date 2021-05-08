@@ -7,15 +7,16 @@
     <title>TanNA on GitHub</title>
     <meta
       name="description"
-      content="Open source for the front end in JavaScript, TypeScript, Swift, Obj-C, Java and more."
+      content="Open source for the front end in JavaScript, TypeScript, and more."
     />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <main>
-      <header>
+      <header class="container">
         <a href="/" class="logo">
           <img
+            class="logo__img"
             src="https://avatars.githubusercontent.com/u/27408985?s=460&u=882a7a9fa104768a999450db98fec0c3a15c3dca&v=4"
             alt="TanNA avatar"
           />
@@ -31,21 +32,20 @@
           </ul>
         </nav>
       </header>
-      <section class="hero">
-        <h1>TAN NGUYEN ANH</h1>
-        <h2>A frontend developer.</h2>
+      <section class="container">
+        <div class="hero">
+          <h1 class="hero__name">TAN NGUYEN ANH</h1>
+          <h2 class="hero__work">A frontend developer.</h2>
+        </div>
       </section>
 
-      <h3>Web</h3>
-      <ul id="webs" class="tags"></ul>
-
-      <hr />
-
-      <h3>Mobile</h3>
-      <ul id="mobiles" class="tags"></ul>
+      <img src="./assets/top-background.svg" alt="" />
+      <section class="resume">
+        <div id="resume" class="container"></div>
+        <img class="resume-background" src="./assets/background.png" alt="" />
+      </section>
     </main>
 
-    <script src="utils.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

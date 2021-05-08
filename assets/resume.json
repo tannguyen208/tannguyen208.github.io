@@ -1,0 +1,377 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "resume",
+  "$comment": "Resume of Tan.NA",
+  "contains": {
+    "personal": {
+      "title": "Personal details",
+      "description": {
+        "type": "list",
+        "data": [
+          {
+            "topic": "Name",
+            "content": "Tan Nguyen Anh"
+          },
+          {
+            "topic": "Phone",
+            "content": "+84 357 833 112"
+          },
+          {
+            "topic": "Email",
+            "content": "tanna48pct@gmail.com"
+          },
+          {
+            "topic": "Skype",
+            "content": "tanna48pct@gmail.com"
+          },
+          {
+            "type": "link",
+            "topic": "Github",
+            "content": "github.com/tannguyen208"
+          }
+        ]
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "description": {
+        "type": "list",
+        "data": [
+          {
+            "topic": "English",
+            "content": "Medium"
+          },
+          {
+            "topic": "Vietnamese",
+            "content": "Mother Tongue"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "title": "Summary",
+      "description": {
+        "type": "list",
+        "data": [
+          "Software Engineer over 2.5 years of experience in developing websites and have been familiar with developing websites using many famous Javascript frameworks and libraries such as Angular, ReactJS, NodeJS…",
+          "Having good analytical abilities, problem-solving techniques, code reviews, clean code, debugging, and excellent good inter-personal.",
+          "Know some popular design patterns that are used on projects."
+        ]
+      }
+    },
+    "highlights": {
+      "title": "Skill Highlights",
+      "description": {
+        "type": "recursive",
+        "data": [
+          {
+            "topic": "Programming languages",
+            "content": [
+              "Javascript",
+              "Dart",
+              "C# .NET basic",
+              "Java basic",
+              "HTML, CSS"
+            ]
+          },
+          {
+            "topic": "Frameworks & platforms",
+            "content": [
+              "ReactJS / AngularJS / NodeJS",
+              "React Native, Flutter",
+              "JQuery / Twitter Bootstrap / Materialize CSS",
+              "ASP.NET MVC / Entity Framework / LINQ to SQL",
+              "RestfulAPI / JSON, XML",
+              "SCSS"
+            ]
+          },
+          {
+            "topic": "Databases",
+            "content": ["SQL Server, MYSQL", "MongoDB"]
+          },
+          {
+            "topic": "Version control",
+            "content": "Git (Git Shell & Github & GitLab)"
+          },
+          {
+            "topic": "IDE",
+            "content": ["VSCode", "Visual Studio 17+", "NetBeans"]
+          },
+          {
+            "topic": "Office skills",
+            "content": "Word, Excel …"
+          }
+        ]
+      }
+    },
+    "experience": {
+      "title": "Work experience",
+      "description": {
+        "type": "group",
+        "data": [
+          {
+            "topic": "Sutrix Solutions",
+            "subtitle": "Nov-Sep 2020 – Present",
+            "content": [
+              "Develop mobile applications.",
+              "Collaborate closely with other team members to plan, design, and develop the apps.",
+              "Give solutions to teams to improve the app’s performance.",
+              "Collaborate with team members to develop project structures, GIT flow…"
+            ]
+          },
+          {
+            "topic": "FPT Software",
+            "subtitle": "Sep 2019 – Mid-Oct 2020",
+            "content": [
+              "Develop project structures, review code and resolve technical problems related to front-end",
+              "Solve all front-end related issues, and support members on teams.",
+              "Work as a BA to gather customer requirements, direct contact with customers to discuss technical related problems."
+            ]
+          },
+          {
+            "topic": "Software Development Center",
+            "subtitle": "Mar 2018 – Aug 2019",
+            "content": [
+              "Develop websites from front-end to back-end.",
+              "Collaborate closely with other team members to plan, design, and develop the websites.",
+              "Give solutions to customers to improve the website’s performance.",
+              "Collaborate with team members to develop project structures, GIT flow…",
+              "Estimate the numbers of users using the website to give solutions to improve the performance of the website."
+            ]
+          }
+        ]
+      }
+    },
+    "projects": {
+      "title": "Professional projects",
+      "description": {
+        "type": "table",
+        "data": [
+          {
+            "topic": "Project",
+            "subtitle": "GOMO PH",
+            "content": [
+              {
+                "topic": "Description",
+                "content": "Ecommerce mobile application for SIM business"
+              },
+              {
+                "topic": "Duration",
+                "content": "Mid-Nov 2020 –  Present"
+              },
+              {
+                "topic": "Position",
+                "content": ["Frontend Developer", "Team Size: 18"]
+              },
+              {
+                "topic": "Responsibility",
+                "content": ["Develop", "Fix bugs and maintain."]
+              },
+              {
+                "topic": "Technology",
+                "content": "Dart, Flutter Framework, Mobx, DIO …"
+              },
+              {
+                "topic": "Tools",
+                "content": "Jira, GitLab"
+              }
+            ]
+          },
+          {
+            "topic": "Project",
+            "subtitle": "JHIN SHOP",
+            "content": [
+              {
+                "topic": "Description",
+                "content": "Ecommerce application for fashion business"
+              },
+              {
+                "topic": "Duration",
+                "content": "Feb 2021 –  Present"
+              },
+              {
+                "topic": "Position",
+                "content": "Develop"
+              },
+              {
+                "topic": "Responsibility",
+                "content": "Develop personal project"
+              },
+              {
+                "topic": "Technology",
+                "content": [
+                  "Backend: NodeJS (NestJS Framework)",
+                  "Frontend: ReactJS 17+, React Hook, Redux, Redux Thunk, Webpack, SCSS …"
+                ]
+              },
+              {
+                "topic": "Tools",
+                "content": "Excel, Github"
+              }
+            ]
+          },
+          {
+            "topic": "Project",
+            "subtitle": "LGU",
+            "content": [
+              {
+                "topic": "Description",
+                "content": "Convert from desktop app to web app"
+              },
+              {
+                "topic": "Duration",
+                "content": "Mid-Sep 2020 – Mid-Oct 2020"
+              },
+              {
+                "topic": "Position",
+                "content": ["Developer", "Team Size: 23"]
+              },
+              {
+                "topic": "Responsibility",
+                "content": "Develop and Fix bugs"
+              },
+              {
+                "topic": "Technology",
+                "content": "Javascript, WebSquare 5"
+              },
+              {
+                "topic": "Tools",
+                "content": "Jira, SVN, GitLab, U+"
+              }
+            ]
+          },
+          {
+            "topic": "Project",
+            "subtitle": "Real-time Location System",
+            "content": [
+              {
+                "topic": "Description",
+                "content": [
+                  "Build project structure and develop new features for Oil Factory Management Application",
+                  "Export data to Excel files"
+                ]
+              },
+              {
+                "topic": "Duration",
+                "content": "Sep 2019 – Mid-Sep 2020"
+              },
+              {
+                "topic": "Position",
+                "content": ["Frontend Developer", "Team Size: 24"]
+              },
+              {
+                "topic": "Responsibility",
+                "content": [
+                  "Build Project Structure",
+                  "Coding main functions",
+                  "Resolve technical problems",
+                  "Support Front-End team"
+                ]
+              },
+              {
+                "topic": "Technology",
+                "content": "Angular 8+, RxJS, NgXS, OpenLayers, StimulsoftJS, HTML, SCSS …"
+              },
+              {
+                "topic": "Tools",
+                "content": "Jira, GitLab, Postman, Sonar"
+              }
+            ]
+          },
+          {
+            "topic": "Project",
+            "subtitle": "CSS Scanner",
+            "content": [
+              {
+                "topic": "Description",
+                "content": "Get CSS by hovering the pointer over any element on a web application."
+              },
+              {
+                "topic": "Duration",
+                "content": "Aug 2019 – Sep 2019"
+              },
+              {
+                "topic": "Position",
+                "content": "Developer"
+              },
+              {
+                "topic": "Responsibility",
+                "content": ["Build Project Structure", "Coding functions"]
+              },
+              {
+                "topic": "Technology",
+                "content": "Chrome Extensions, HTML, CSS, Javascript …"
+              },
+              {
+                "topic": "Tools",
+                "content": "GitHub"
+              }
+            ]
+          },
+          {
+            "topic": "Project",
+            "subtitle": "AMES ENGLISH",
+            "content": [
+              {
+                "topic": "Description",
+                "content": "Help learn English online."
+              },
+              {
+                "topic": "Duration",
+                "content": "Mar 2018 – Aug 2019"
+              },
+              {
+                "topic": "Position",
+                "content": ["Developer", "Team Size: 12"]
+              },
+              {
+                "topic": "Responsibility",
+                "content": [
+                  "Coding main functions Mobile and Web application.",
+                  "Get requirement behavior from customer (VN)"
+                ]
+              },
+              {
+                "topic": "Technology",
+                "content": "ReactJS, ReactNative, Redux, Saga, HTML, SCSS …"
+              },
+              {
+                "topic": "Tools",
+                "content": "Jira, GitLab, Postman"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "education": {
+      "title": "Education",
+      "description": {
+        "type": "list",
+        "data": ["2016 – 2019: Softech Aptech (Viet Nam, Da Nang)"]
+      }
+    },
+    "recognitions": {
+      "title": "Awards & recognitions",
+      "description": {
+        "type": "recursive",
+        "data": [
+          {
+            "topic": "Best performance in the projects",
+            "content": [
+              "Real-Time Location System project",
+              "AMES ENGLISH project"
+            ]
+          }
+        ]
+      }
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "description": {
+        "type": "list",
+        "data": ["Movies & Music", "Photography", "Play computer games"]
+      }
+    }
+  }
+}

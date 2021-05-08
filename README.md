@@ -3,7 +3,7 @@
 **Landing page for my GitHub projects**
 
 \
-<a href="https://tannguyen208.github.io"><img width="1181" alt="Screenshot of tannguyen208.github.io" src="https://github.com/tannguyen208/tannguyen208.github.io/blob/master/Capture.PNG?raw=true"></a>
+<a href="https://tannguyen208.github.io"><img width="1181" alt="Screenshot of tannguyen208.github.io" src="https://github.com/tannguyen208/tannguyen208.github.io/blob/master/assets/screenshot.png?raw=true"></a>
 
 ## Development
 
