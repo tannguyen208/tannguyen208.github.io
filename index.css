@@ -48,6 +48,25 @@ ul {
   padding: 0;
 }
 
+#download {
+  padding: 8px 16px;
+  background: #ffd000;
+  color: #1c1c20;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-left: 12px;
+  transition: all 0.3s ease-in-out;
+}
+#download:hover {
+  background: #ffdf4e;
+}
+#download:disabled {
+  background: #eeeeee;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 1rem;
@@ -76,6 +95,7 @@ header {
 
 nav ul {
   display: flex;
+  list-style: none;
 }
 
 nav li {

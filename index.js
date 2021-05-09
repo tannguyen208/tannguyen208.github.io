@@ -5,6 +5,7 @@ const renderTypes = {
   table: 'table',
 };
 const resumeEl = document.getElementById('resume');
+const downloadEl = document.getElementById('download');
 
 function parseJson(stream) {
   return stream.json();
@@ -166,3 +167,36 @@ function _buildDeepTableList(list = []) {
 
   return result;
 }
+
+downloadEl.addEventListener('click', function (event) {
+  downloadEl.setAttribute('disabled', true);
+  const savePDF = function () {
+    html2pdf()
+      .set({
+        margin: [1, 0.5],
+        filename: 'CV_TanNA.pdf',
+        enableLinks: false,
+        html2canvas: {
+          scale: 1,
+        },
+        image: {
+          type: 'jpeg',
+          quality: 1,
+        },
+        jsPDF: {
+          unit: 'in',
+          format: 'letter',
+          orientation: 'portrait',
+        },
+      })
+      .from(resumeEl)
+      .save()
+      .then(function () {
+        setTimeout(() => {
+          downloadEl.removeAttribute('disabled');
+        }, 2000);
+      });
+  };
+
+  savePDF();
+});
